@@ -4,15 +4,15 @@
 
 @layer base{
    @font-face {
-    font-family: "v-bold";
-    src: url("/fonts/Vazir-Bold.ttf");
+    font-family: "vbold";
+    src: url("https://s30.picofile.com/d/8472417450/d882ed16-813f-4151-b6c8-9ee7ba5789cb/Vazir_Bold.ttf");
    }
    @font-face {
-    font-family: "v-medium";
-    src: url("/fonts/Vazir-Medium.ttf");
+    font-family: "vmedium";
+    src: url("https://s31.picofile.com/d/8472417468/5e24ec65-8f64-4412-98c0-953b83ab95aa/Vazir_Medium.ttf");
    }
    @font-face {
-    font-family: "v-regular";
+    font-family: "vregular";
     src: url("/fonts/Vazir.ttf");
    }
 }
