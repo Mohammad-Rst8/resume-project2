@@ -1,0 +1,15 @@
+.enable{
+    background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+    color: rgb(191 219 254);
+}
+.swiper {
+    width: 100%;
+    height: 450px;
+  }
+
+  @media (min-width:768px) {
+    .swiper {
+        width: 800px;
+        height: 400px;
+      }
+  };

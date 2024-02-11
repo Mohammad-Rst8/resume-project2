@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+   @font-face {
+    font-family: "v-bold";
+    src: url("/fonts/Vazir-Bold.ttf");
+   }
+   @font-face {
+    font-family: "v-medium";
+    src: url("/fonts/Vazir-Medium.ttf");
+   }
+   @font-face {
+    font-family: "v-regular";
+    src: url("/fonts/Vazir.ttf");
+   }
+}

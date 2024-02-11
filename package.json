@@ -1,0 +1,18 @@
+{
+  "name": "resume-askari",
+  "version": "1.0.0",
+  "description": "this project for CV",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./styles/style.css --watch"
+  },
+  "keywords": [
+    "cv"
+  ],
+  "author": "mohammadRst",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
