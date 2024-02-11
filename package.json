@@ -5,7 +5,7 @@
   "main": "tailwind.config.js",
   "scripts": {
     
-    "build": "npx tailwindcss -i ./src/input.css -o ./styles/style.css --watch"
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/style.css --watch"
   },
   "dependencies": {
     "cors": "^2.8.5"
