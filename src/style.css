@@ -688,6 +688,10 @@ video {
   margin-right: 0.75rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -1123,6 +1127,10 @@ video {
 
   .md\:mr-0 {
     margin-right: 0px;
+  }
+
+  .md\:mt-3 {
+    margin-top: 0.75rem;
   }
 
   .md\:block {
