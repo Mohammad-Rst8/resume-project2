@@ -780,6 +780,18 @@ video {
   height: 100%;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-\[320px\] {
+  height: 320px;
+}
+
+.h-\[30px\] {
+  height: 30px;
+}
+
 .w-0 {
   width: 0px;
 }
@@ -1093,6 +1105,14 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
 }
 
 .text-\[\#2dcb65\] {
