@@ -3,20 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="src/style.css"/>
-    <link rel="stylesheet" href="styles/custom-style.css"/>
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="styles/custom-style.css" />
     <title>Asghar askari</title>
   </head>
-  <body class="font-vmedium">
-    <section>
+  <body class="">
+
+
+    <section id="biography" >
       <div
-        class="container text-white bg-fixed relative font-vbold bg-back-one bg-center bg-cover   mx-auto " id="sectionBg"
+        class="container  z-50 text-white bg-fixed relative bg-back-one bg-center bg-cover mx-auto"
+        id="sectionBg"
       >
         <ul
           class="hidden md:flex items-center fixed w-[90%] mx-auto bg-[#012549] rounded-b-xl left-0 right-0 top-0 justify-center gap-5 py-4 px-2 text-xl [&>li:hover]:transition-all [&>li:hover]:text-slate-700 [&>li:hover]:hover:scale-125 [&>li]:cursor-pointer"
         >
-          <li class="flex items-center justify-center">
+          <a href="#biography" class="flex items-center z-50 justify-center">
             <svg
               width="38px"
               height="38px"
@@ -31,8 +34,8 @@
               />
             </svg>
             بیوگرافی
-          </li>
-          <li class="flex items-center justify-center">
+          </a>
+          <a href="#Education" class="flex items-center justify-center">
             <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
             <svg
               fill="#047cd2"
@@ -48,9 +51,9 @@
                 d="m 12.499079,12.25525 c 0.0968,0 0.188377,-0.0436 0.249339,-0.11884 0.06096,-0.0752 0.08473,-0.17385 0.06473,-0.26853 l -0.202146,-0.95662 c 0.115125,-0.11137 0.187491,-0.26686 0.187491,-0.43975 0,-0.182 -0.08106,-0.34343 -0.206876,-0.45558 l 0,-3.32202 -0.810333,0.50146 0,2.82056 c -0.125815,0.11215 -0.2069,0.27358 -0.2069,0.45558 0,0.17291 0.07239,0.32841 0.187515,0.43975 l -0.20217,0.95662 c -0.02,0.0947 0.0038,0.19335 0.06473,0.26853 0.06096,0.0752 0.152539,0.11884 0.249339,0.11884 l 0.625281,0 z M 12.773741,4.75539 7.5021019,1.49209 C 7.3477151,1.39699 7.1736728,1.34925 6.9996305,1.34925 c -0.1740423,0 -0.3482077,0.0477 -0.5016586,0.14284 l -5.271713,3.2633 C 1.0854931,4.84249 0.99999905,4.99633 0.99999905,5.1619 c 0,0.1656 0.085494,0.31949 0.22625985,0.40673 l 5.2716883,3.26333 c 0.153451,0.0952 0.3276163,0.14284 0.5016586,0.14284 0.1740423,0 0.3481092,-0.0477 0.5024714,-0.14284 L 12.773741,5.56863 c 0.140766,-0.0872 0.22626,-0.24113 0.22626,-0.40673 0,-0.16557 -0.08549,-0.31946 -0.22626,-0.40651 z M 6.9996059,9.78508 c -0.3283798,0 -0.6488777,-0.0912 -0.928242,-0.26411 l -3.0750017,-1.90368 0,3.27796 c 0,0.97016 1.7931578,1.7555 4.0032436,1.7555 2.2108742,0 4.0038842,-0.78536 4.0038842,-1.7555 l 0,-3.27796 -3.0748786,1.90368 C 7.6492472,9.69388 7.3279857,9.78508 6.9996059,9.78508 Z"
               />
             </svg>
-            تحصیلات
-          </li>
-          <li class="flex items-center justify-center">
+            سوابق علمی
+          </a>
+          <!-- <a href="#Skills" class="flex items-center justify-center">
             <svg
               fill="#047cd2"
               width="35px"
@@ -94,8 +97,8 @@
               </g>
             </svg>
             مهارت ها
-          </li>
-          <li class="flex items-center justify-center">
+          </a> -->
+          <a href="#resume" class="flex items-center justify-center">
             <svg
               fill="#047cd2"
               width="35px"
@@ -108,8 +111,8 @@
               />
             </svg>
             سوابق کاری
-          </li>
-          <li class="flex items-center justify-center">
+          </a>
+          <a href="#Contact" class="flex items-center justify-center">
             <svg
               fill="#047cd2"
               width="35px"
@@ -185,7 +188,7 @@
               </g>
             </svg>
             ارتباط با من
-          </li>
+          </a>
         </ul>
 
         <div class="md:hidden relative z-30 bg-[#012549] w-[90%] mx-auto">
@@ -200,7 +203,7 @@
             id="menumobile"
             class="flex rounded-b-lg absolute w-full h-72 bg-[#012549] -top-80 mx-auto left-0 right-0 md:hidden items-center flex-col justify-center gap-5 py-4 px-2 text-xl [&>li:hover]:transition-all [&>li:hover]:text-slate-700 [&>li:hover]:hover:scale-125 [&>li]:cursor-pointer"
           >
-            <li class="flex items-center justify-center">
+            <a href="#biography" class="flex items-center justify-center">
               <svg
                 width="35px"
                 height="35px"
@@ -216,8 +219,8 @@
                 />
               </svg>
               بیوگرافی
-            </li>
-            <li class="flex items-center justify-center">
+            </a>
+            <a href="#Education" class="flex items-center justify-center">
               <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
               <svg
                 fill="#047cd2"
@@ -233,54 +236,10 @@
                   d="m 12.499079,12.25525 c 0.0968,0 0.188377,-0.0436 0.249339,-0.11884 0.06096,-0.0752 0.08473,-0.17385 0.06473,-0.26853 l -0.202146,-0.95662 c 0.115125,-0.11137 0.187491,-0.26686 0.187491,-0.43975 0,-0.182 -0.08106,-0.34343 -0.206876,-0.45558 l 0,-3.32202 -0.810333,0.50146 0,2.82056 c -0.125815,0.11215 -0.2069,0.27358 -0.2069,0.45558 0,0.17291 0.07239,0.32841 0.187515,0.43975 l -0.20217,0.95662 c -0.02,0.0947 0.0038,0.19335 0.06473,0.26853 0.06096,0.0752 0.152539,0.11884 0.249339,0.11884 l 0.625281,0 z M 12.773741,4.75539 7.5021019,1.49209 C 7.3477151,1.39699 7.1736728,1.34925 6.9996305,1.34925 c -0.1740423,0 -0.3482077,0.0477 -0.5016586,0.14284 l -5.271713,3.2633 C 1.0854931,4.84249 0.99999905,4.99633 0.99999905,5.1619 c 0,0.1656 0.085494,0.31949 0.22625985,0.40673 l 5.2716883,3.26333 c 0.153451,0.0952 0.3276163,0.14284 0.5016586,0.14284 0.1740423,0 0.3481092,-0.0477 0.5024714,-0.14284 L 12.773741,5.56863 c 0.140766,-0.0872 0.22626,-0.24113 0.22626,-0.40673 0,-0.16557 -0.08549,-0.31946 -0.22626,-0.40651 z M 6.9996059,9.78508 c -0.3283798,0 -0.6488777,-0.0912 -0.928242,-0.26411 l -3.0750017,-1.90368 0,3.27796 c 0,0.97016 1.7931578,1.7555 4.0032436,1.7555 2.2108742,0 4.0038842,-0.78536 4.0038842,-1.7555 l 0,-3.27796 -3.0748786,1.90368 C 7.6492472,9.69388 7.3279857,9.78508 6.9996059,9.78508 Z"
                 />
               </svg>
-              تحصیلات
-            </li>
-            <li class="flex items-center justify-center">
-              <svg
-                fill="#047cd2"
-                width="35px"
-                height="35px"
-                viewBox="0 0 512 512"
-                enable-background="new 0 0 512 512"
-                id="Expertise"
-                version="1.1"
-                xml:space="preserve"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <g>
-                  <path
-                    d="M245.368,46.908c0.738,0.535,1.049,1.488,0.768,2.355l-5.426,16.697c-0.633,1.943,1.592,3.559,3.244,2.357L258.157,58   c0.738-0.537,1.738-0.537,2.477,0l14.203,10.318c1.652,1.201,3.877-0.414,3.246-2.357l-5.426-16.697   c-0.283-0.867,0.027-1.82,0.766-2.355l14.203-10.457c1.652-1.201,0.805-3.951-1.238-3.951h-17.557c-0.912,0-1.723-0.451-2.004-1.32   l-5.426-16.628c-0.631-1.941-3.379-1.908-4.01,0.033l-5.426,16.578c-0.283,0.867-1.092,1.337-2.006,1.337h-17.557   c-2.041,0-2.891,2.75-1.238,3.951L245.368,46.908z"
-                  />
-
-                  <path
-                    d="M419.888,105.883c-0.645-0.646-0.801-1.635-0.387-2.447l7.971-15.645c0.926-1.818-1.018-3.762-2.838-2.836l-15.643,7.971   c-0.813,0.416-1.801,0.258-2.447-0.387L394.13,80.125c-1.443-1.445-3.891-0.197-3.572,1.82l2.746,17.34   c0.143,0.902-0.313,1.795-1.125,2.209l-15.643,7.971c-1.82,0.926-1.391,3.641,0.627,3.959l17.34,2.748   c0.904,0.143,1.611,0.85,1.754,1.752l2.744,17.34c0.32,2.018,3.035,2.447,3.961,0.627l7.971-15.643   c0.414-0.814,1.307-1.268,2.209-1.125l17.34,2.746c2.018,0.32,3.266-2.129,1.82-3.572L419.888,105.883z"
-                  />
-
-                  <path
-                    d="M497.972,252.951l-16.354-5.426c-0.871-0.283-1.117-1.092-1.117-2.006v-17.557c0-2.041-2.957-2.891-4.156-1.238   l-10.486,14.203c-0.539,0.738-1.578,1.049-2.445,0.768l-16.739-5.428c-1.941-0.631-3.578,1.592-2.379,3.244l10.311,14.205   c0.535,0.738,0.532,1.738-0.005,2.477l-10.322,14.205c-1.199,1.652,0.412,3.875,2.355,3.244l16.696-5.426   c0.869-0.281,1.818,0.027,2.357,0.766l10.659,14.203c1.199,1.652,4.154,0.805,4.154-1.238v-17.557c0-0.914,0.246-1.723,1.117-2.004   l16.527-5.428C500.086,256.33,499.915,253.582,497.972,252.951z"
-                  />
-
-                  <path
-                    d="M139.704,108.779c2.018-0.32,2.447-3.033,0.629-3.961l-15.643-7.971c-0.816-0.414-1.271-1.307-1.125-2.209l2.744-17.34   c0.32-2.018-2.129-3.264-3.572-1.82l-12.412,12.414c-0.646,0.646-1.637,0.803-2.449,0.387l-15.645-7.971   c-1.818-0.926-3.762,1.018-2.834,2.836l7.969,15.645c0.416,0.813,0.26,1.801-0.387,2.447L84.565,113.65   c-1.443,1.443-0.197,3.893,1.82,3.572l17.34-2.746c0.904-0.143,1.793,0.311,2.209,1.125l7.971,15.643   c0.928,1.82,3.641,1.391,3.959-0.627l2.748-17.34c0.143-0.902,0.85-1.609,1.752-1.752L139.704,108.779z"
-                  />
-
-                  <path
-                    d="M67.948,232.941c1.199-1.65-0.416-3.875-2.357-3.242l-16.697,5.424c-0.869,0.283-1.82-0.027-2.355-0.766l-10.274-14.203   c-1.199-1.652-3.764-0.805-3.764,1.238v17.557c0,0.914-0.634,1.723-1.505,2.004l-16.721,5.428c-1.941,0.629-1.957,3.377-0.013,4.01   L31,255.814c0.869,0.283,1.5,1.092,1.5,2.006v17.557c0,2.041,2.565,2.891,3.764,1.238l10.298-14.203   c0.537-0.738,1.473-1.049,2.342-0.766l16.691,5.426c1.943,0.631,3.553-1.592,2.354-3.244l-10.32-14.203   c-0.537-0.74-0.536-1.74,0.001-2.479L67.948,232.941z"
-                  />
-
-                  <path
-                    d="M370.45,256.971c-1.906-41.326-25.762-76.92-60.197-95.363c-2.715-1.48-5.514-2.838-8.371-4.074   c-13.943-6.061-29.33-9.424-45.504-9.424c-60.75,0-110.352,47.451-113.909,107.326l0.031-0.006v0.203   c0,2.209-0.105,12.098-0.105,12.098l-1.701,3.77h11.371c4.273-14,17.393-23.568,32.871-23.568   c18.945,0,34.359,15.826,34.359,34.771c0,18.943-15.414,34.052-34.359,34.052c-18.135,0-33.029-14.255-34.266-32.255h-13.568   c-0.289,0-0.563,0.463-0.842,0.424l-14.273,39.865c-2.004,5.559,2.113,11.711,8.02,11.711h12.291l-0.092,63.488   c0,12.535,10.166,22.512,22.701,22.512H205.5v59.693c0,9.301,9.341,16.307,18.642,16.307h104.434   c9.301,0,16.925-7.006,16.925-16.307V362.277c0-16.357,4.316-32.328,11.959-46.795c7.984-15.111,12.658-32.227,13.094-50.404   c0.02-0.912,0.029-1.844,0.029-2.777C370.582,260.518,370.53,258.734,370.45,256.971z M258.216,248.5H248.5v9.793   c0,3.418-3.084,6.188-6.5,6.188s-6.5-2.77-6.5-6.188V248.5h-8.802c-3.416,0-6.188-3.084-6.188-6.5s2.771-6.5,6.188-6.5h8.802   v-8.725c0-3.416,3.084-6.188,6.5-6.188s6.5,2.771,6.5,6.188v8.725h9.716c3.416,0,6.188,3.084,6.188,6.5   S261.632,248.5,258.216,248.5z"
-                  />
-
-                  <path
-                    d="M200.507,298.637c3.938-3.982,6.414-9.449,6.414-15.523c0-12.129-9.855-21.982-21.984-21.982   c-6.008,0-11.475,2.408-15.457,6.346c-4.025,4.004-6.523,9.539-6.523,15.637c0,12.127,9.854,21.982,21.98,21.982   C191.013,305.096,196.524,302.621,200.507,298.637z"
-                  />
-                </g>
-              </svg>
-              مهارت ها
-            </li>
-            <li class="flex items-center justify-center">
+              سوابق علمی
+            </a>
+           
+            <a href="#resume" class="flex items-center justify-center">
               <svg
                 fill="#047cd2"
                 width="35px"
@@ -293,8 +252,8 @@
                 />
               </svg>
               سوابق کاری
-            </li>
-            <li class="flex items-center justify-center">
+            </a>
+            <a href="#Contact" class="flex items-center justify-center">
               <svg
                 width="35px"
                 height="35px"
@@ -367,7 +326,7 @@
                 </g>
               </svg>
               ارتباط با من
-            </li>
+            </a>
           </ul>
         </div>
 
@@ -379,25 +338,25 @@
             <h3 class="text-[1rem] lg:text-xl my-3">
               مدرس سیستم مدیریت یکپارچه
             </h3>
-            <p class="text-sm">
+            <p class="text-sm ">
               رئیس برنامه ریزی، تضمین کیفیت و سیستم های مدیریت مدیر ریسک
             </p>
 
             <div
               class="flex flex-col sm:flex-row lg:items-center my-4 mr-4 md:mr-0 text-sm md:text-[1rem] gap-1 sm:gap-7 lg:my-10"
             >
-              <ul class="list-disc lg:mr-5 space-y-1">
+              <ul class="list-disc lg:mr-5 space-y-1 ">
                 <li>تاریخ تولد : 1364/01/10</li>
                 <li>تلفن تماس : 09163502023</li>
               </ul>
-              <ul class="list-disc space-y-1">
+              <ul class="list-disc space-y-1 ">
                 <li>تلفن محل کار : 52102190-061</li>
                 <li>محل کار : پالایشگاه بیدبلند</li>
               </ul>
             </div>
             <a
               href="./files/رزومه 1401-1.pdf"
-              class="w-32 h-10 rounded-2xl bg-[#047cd2] my-2 md:my-0ta flex items-center justify-center"
+              class="w-32 h-10 rounded-2xl bg-[#047cd2] hover:bg-red-500 transition-all delay-50  my-2 md:my-0ta flex items-center justify-center"
               >رزومه</a
             >
           </div>
@@ -413,10 +372,18 @@
       </div>
     </section>
 
-    <section>
-      <h2
-        class="text-center font-vbold mx-auto bg-slate-300 text-3xl p-4 mt-3 container"
-      >
+
+
+
+
+
+
+
+
+
+
+    <section id="Education">
+      <h2 class="text-center mx-auto bg-slate-300 text-3xl p-4 mt-3 container">
         سوابق علمی و تحصیلی
       </h2>
       <div
@@ -424,7 +391,7 @@
       >
         <nav class="mb-5 sm:mb-0">
           <ul
-            class="xl:w-80 flex-wrap w-72 sm:w-52 bg-blue-600 h-32 sm:h-96 rounded-2xl flex items-center justify-evenly [&>*]:cursor-pointer [&>*]:text-white [&>*:hover]:font-vbold font-vmedium [&>*]:w-32 [&>*]:h-12 [&>*:hover]:bg-red-700 flex-col"
+            class="xl:w-80 flex-wrap w-72 sm:w-52 bg-blue-600 h-32 sm:h-96 rounded-2xl flex items-center justify-evenly [&>*]:cursor-pointer [&>*]:text-white [&>*]:w-32 [&>*]:h-12 [&>*:hover]:bg-red-700 flex-col"
           >
             <li
               class="flex items-center justify-center rounded-full education enable"
@@ -460,10 +427,8 @@
       </div>
     </section>
 
-    <section>
-      <h2
-        class="text-center font-vbold mx-auto bg-slate-300 text-3xl p-4 mt-3 container"
-      >
+    <section id="resume" >
+      <h2 class="text-center mx-auto bg-slate-300 text-3xl p-4 mt-3 container">
         سوابق کاری
       </h2>
 
@@ -531,39 +496,46 @@
               >
                 <!-- image  -->
                 <div class="flex items-center justify-between md:block">
-                <img
-                  src="./images/3.jpg"
-                  alt="Tool technician"
-                  class="md:w-44 w-20 md:mx-auto my-2 md:mb-2 rounded-xl md:h-48 h-24 px-2"
-                />
-                <div>
-                <div class="flex items-center justify-center gap-2 px-2">
-                  <img src="./icons/copany.svg" alt="" width="25" height="25" />
-                  <!-- companu svg -->
-                  <h3>پتروشیمی شهید تندگویان</h3>
-                </div>
-                <div class="flex items-center justify-center gap-2">
                   <img
-                    src="./icons/respons.svg"
-                    alt=""
-                    width="25"
-                    height="25"
-                    class="rotate-180"
+                    src="./images/3.jpg"
+                    alt="Tool technician"
+                    class="md:w-44 w-20 md:mx-auto my-2 md:mb-2 rounded-xl md:h-48 h-24 px-2"
                   />
-                  <!-- response person -->
-                  <h5>نوبتکار بهره برداری</h5>
+                  <div>
+                    <div class="flex items-center justify-center gap-2 px-2">
+                      <img
+                        src="./icons/copany.svg"
+                        alt=""
+                        width="25"
+                        height="25"
+                      />
+                      <!-- companu svg -->
+                      <h3>پتروشیمی شهید تندگویان</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-2">
+                      <img
+                        src="./icons/respons.svg"
+                        alt=""
+                        width="25"
+                        height="25"
+                        class="rotate-180"
+                      />
+                      <!-- response person -->
+                      <h5>نوبتکار بهره برداری</h5>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
 
               <span
                 class="h-[85%] md:opacity-25 mx-5 hidden md:block rounded-full w-0.5 bg-blue-600"
               ></span>
 
-              <div class="bg-blue-600 h-[308px] rounded-xl w-[90%] md:w-[60%] pt-2 pr-2">
+              <div
+                class="bg-blue-600 h-[308px] rounded-xl w-[90%] md:w-[60%] pt-2 pr-2"
+              >
                 <ul
-                  class="[&>*]:list-decimal  [&>*]:mr-8 [&>*]:mt-2 [&>*]:text-wrap"
+                  class="[&>*]:list-decimal [&>*]:mr-8 [&>*]:mt-2 [&>*]:text-wrap"
                 >
                   <li>
                     نوبتکار واحد WWTP آشنایی با انواع روشهای تصفیه پساب(فیزیکی،
@@ -571,8 +543,8 @@
                   </li>
 
                   <li>
-                    نوبتکار واحد زباله سوز آشنایی کامل با عملکرد
-                    زباله سوزهای صنعتی، فیلترپرس  سانتریفیوژها و ...
+                    نوبتکار واحد زباله سوز آشنایی کامل با عملکرد زباله سوزهای
+                    صنعتی، فیلترپرس سانتریفیوژها و ...
                   </li>
                   <li>نوبتکار واحد برج خنک کننده و خطوط یوتیلیتی</li>
                 </ul>
@@ -583,39 +555,46 @@
               <div
                 class="bg-blue-600 md:py-3 my-2 rounded-2xl flex items-center justify-center gap-2 flex-col"
               >
-              <div class="flex items-center justify-between md:block">
-                <!-- image  -->
-                <img
-                  src="./images/a1.jpg"
-                  alt="Tool technician"
-                  class="md:w-44 w-20 md:mx-auto my-2 md:mb-2 rounded-xl md:h-48 h-24 px-2"
-                />
-                <div>
-                <div class="flex items-center justify-center gap-2">
-                  <img src="./icons/copany.svg" alt="" width="25" height="25" />
-                  <!-- companu svg -->
-                  <h3>شرکت عملیات صنعتی</h3>
-                </div>
-                <div class="flex items-center justify-center gap-1 px-1">
+                <div class="flex items-center justify-between md:block">
+                  <!-- image  -->
                   <img
-                    src="./icons/respons.svg"
-                    alt=""
-                    width="25"
-                    height="25"
-                    class="rotate-180"
+                    src="./images/a1.jpg"
+                    alt="Tool technician"
+                    class="md:w-44 w-20 md:mx-auto my-2 md:mb-2 rounded-xl md:h-48 h-24 px-2"
                   />
-                  <!-- response person -->
-                  <h5>سرپرست برنامه ریزی و کنترل</h5>
+                  <div>
+                    <div class="flex items-center justify-center gap-2">
+                      <img
+                        src="./icons/copany.svg"
+                        alt=""
+                        width="25"
+                        height="25"
+                      />
+                      <!-- companu svg -->
+                      <h3>شرکت عملیات صنعتی</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 px-1">
+                      <img
+                        src="./icons/respons.svg"
+                        alt=""
+                        width="25"
+                        height="25"
+                        class="rotate-180"
+                      />
+                      <!-- response person -->
+                      <h5>سرپرست برنامه ریزی و کنترل</h5>
+                    </div>
+                  </div>
                 </div>
               </div>
-              </div>
-            </div>
 
               <span
                 class="h-[85%] md:opacity-25 mx-5 hidden md:block rounded-full w-0.5 bg-blue-600"
               ></span>
 
-              <div class="bg-blue-600 h-[380px] md:h-[308px] rounded-xl w-[88%] md:w-[60%] pt-2">
+              <div
+                class="bg-blue-600 h-[380px] md:h-[308px] rounded-xl w-[88%] md:w-[60%] pt-2"
+              >
                 <ul
                   class="[&>*]:list-decimal text-sm md:text-base [&>*]:mr-8 [&>*]:mt-2 [&>*]:text-wrap"
                 >
@@ -636,58 +615,64 @@
               <div
                 class="bg-blue-600 md:py-3 my-1 rounded-2xl flex items-center justify-center gap-2 flex-col"
               >
-              <div class="flex items-center justify-between md:block">
-                <!-- image  -->
-                <img
-                  src="./images/5.jpg"
-                  alt="Tool technician"
-                  class="md:w-44 w-20 md:mx-auto my-2 md:mb-2 rounded-xl md:h-48 h-24 px-2"
-                />
-                <div>
-                <div class="flex items-center justify-center gap-2">
-                  <img src="./icons/copany.svg" alt="" width="25" height="25" />
-                  <!-- companu svg -->
-                  <h3>پالایشگاه بیدبلند خلیج فارس</h3>
-                </div>
-                <div class="flex items-center justify-center gap-2">
+                <div class="flex items-center justify-between md:block">
+                  <!-- image  -->
                   <img
-                    src="./icons/respons.svg"
-                    alt=""
-                    width="25"
-                    height="25"
-                    class="rotate-180"
+                    src="./images/5.jpg"
+                    alt="Tool technician"
+                    class="md:w-44 w-20 md:mx-auto my-2 md:mb-2 rounded-xl md:h-48 h-24 px-2"
                   />
-                <!-- hello -->
-                  <h5>رئیس سیستم های مدیریت</h5>
+                  <div>
+                    <div class="flex items-center justify-center gap-2">
+                      <img
+                        src="./icons/copany.svg"
+                        alt=""
+                        width="25"
+                        height="25"
+                      />
+                      <!-- companu svg -->
+                      <h3>پالایشگاه بیدبلند خلیج فارس</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-2">
+                      <img
+                        src="./icons/respons.svg"
+                        alt=""
+                        width="25"
+                        height="25"
+                        class="rotate-180"
+                      />
+                      <!-- hello -->
+                      <h5>رئیس سیستم های مدیریت</h5>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
               </div>
 
               <span
                 class="h-[85%] md:opacity-25 mx-5 hidden md:block rounded-full w-0.5 bg-blue-600"
               ></span>
 
-              <div class="bg-blue-600 h-[380px] md:h-[308px] rounded-xl w-[88%] md:w-[60%] pt-2">
+              <div
+                class="bg-blue-600 h-[380px] md:h-[308px] rounded-xl w-[88%] md:w-[60%] pt-2"
+              >
                 <ul
                   class="[&>*]:list-decimal text-sm md:text-base [&>*]:mr-8 [&>*]:mt-2 [&>*]:text-wrap"
                 >
                   <li>تدوین شاخصهای پایش عملکرد در شرکت</li>
                   <li>
-                 فرآیند مدیریت استراتژیک و تدوین اهداف کلان و خرد
-                    سالیانه
+                    فرآیند مدیریت استراتژیک و تدوین اهداف کلان و خرد سالیانه
                   </li>
                   <li>شناسنامه دار کردن و مدلسازی فرآیند های سازمان</li>
                   <li>
                     تشکیل تیم آراستگی، تدوین کتابچه شاخص های آراستگی سازمان
                   </li>
                   <li>
-                  راهبری حضور شرکت در جایزه تعالی مدیریت پروژه و کسب
-                    مقام سوم جهانی
+                    راهبری حضور شرکت در جایزه تعالی مدیریت پروژه و کسب مقام سوم
+                    جهانی
                   </li>
                   <li>
-                 اقداماتی جهت جاری سازی سیستم مدیریت انرژی و 
-                    مدیریت امنیت اطلاعات
+                    اقداماتی جهت جاری سازی سیستم مدیریت انرژی و مدیریت امنیت
+                    اطلاعات
                   </li>
                   <li>تهیه داخلی محتواهای فرهنگ سازی امور مدیریتی</li>
                 </ul>
@@ -698,39 +683,46 @@
               <div
                 class="bg-blue-600 md:py-3 my-2 rounded-2xl flex items-center justify-center gap-2 flex-col"
               >
-              <div class="flex items-center justify-between md:block">
-                <!-- image  -->
-                <img
-                  src="./images/a6.jpg"
-                  alt="Tool technician"
-                  class="md:w-44 w-20 md:mx-auto my-2 md:mb-2 rounded-xl md:h-48 h-24 px-2"
-                />
-                <div>
-                <div class="flex items-center justify-center gap-2">
-                  <img src="./icons/copany.svg" alt="" width="25" height="25" />
-                  <!-- companu svg -->
-                  <h3>پالایشگاه بیدبلند خلیج فارس</h3>
-                </div>
-                <div class="flex items-center justify-center gap-2">
+                <div class="flex items-center justify-between md:block">
+                  <!-- image  -->
                   <img
-                    src="./icons/respons.svg"
-                    alt=""
-                    width="25"
-                    height="25"
-                    class="rotate-180"
+                    src="./images/a6.jpg"
+                    alt="Tool technician"
+                    class="md:w-44 w-20 md:mx-auto my-2 md:mb-2 rounded-xl md:h-48 h-24 px-2"
                   />
-                  <!-- response person -->
-                  <h5>مدیر ریسک</h5>
+                  <div>
+                    <div class="flex items-center justify-center gap-2">
+                      <img
+                        src="./icons/copany.svg"
+                        alt=""
+                        width="25"
+                        height="25"
+                      />
+                      <!-- companu svg -->
+                      <h3>پالایشگاه بیدبلند خلیج فارس</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-2">
+                      <img
+                        src="./icons/respons.svg"
+                        alt=""
+                        width="25"
+                        height="25"
+                        class="rotate-180"
+                      />
+                      <!-- response person -->
+                      <h5>مدیر ریسک</h5>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
               </div>
 
               <span
                 class="h-[85%] md:opacity-25 mx-5 hidden md:block rounded-full w-0.5 bg-blue-600"
               ></span>
 
-              <div class="bg-blue-600 h-[380px] md:h-[308px] rounded-xl w-[88%] md:w-[60%] pt-2">
+              <div
+                class="bg-blue-600 h-[380px] md:h-[308px] rounded-xl w-[88%] md:w-[60%] pt-2"
+              >
                 <ul
                   class="[&>*]:list-decimal [&>*]:mr-8 [&>*]:mt-2 [&>*]:text-wrap"
                 >
@@ -745,6 +737,91 @@
         </div>
       </div>
     </section>
+
+    <section id="Contact">
+      <h2
+        class="text-center font-vbold mx-auto bg-slate-300 text-3xl p-4 mt-3 container"
+      >
+        ارتباط با من
+      </h2>
+      <div class="container bg-gray-400 flex items-center justify-evenly mx-auto">
+
+
+
+
+        <div class="w-80 h-80  flex items-center justify-between flex-wrap">
+        
+<!-- rubika -->
+              <a href="https://rubika.ir/AAskari85">
+                <svg id="Layer_1" data-name="Layer 1" width="53" height="53" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495.37 543.04"><path d="M246.07,0h1.76c.48,42.73-.25,128.44-.25,128.44-40.86-22.92-82-45.3-122.84-68.29q40.13-22.81,80.32-45.51c12.69-7.16,26.33-13.31,41-14.64Z" fill="#b8ce01"/><path d="M247.73,0h3C266.62,1.43,281,9,294.67,16.68Q332.91,38.25,371.05,60c-41,22.73-82.45,45.82-123.51,68.48-.35-42.73.63-85.77.15-128.5Z" fill="#7db425"/><path d="M124.77,60.11,247.61,128.4,123.92,200.66s-.06-45.85.08-68.71C123.89,108.21,124.77,60.11,124.77,60.11Z" fill="#f6a925"/><path d="M371.19,60l.35.19c-.1,42.59,0,85.18,0,127.77-.07,4.17-.11,12.77-.11,12.77L247.62,128.45S330.2,82.76,371.23,60Z" fill="#35ac9d"/><path d="M371.44,60.21c27.28,15.51,54.37,31.36,81.47,47.17,13.11,7.36,27,15.52,34.16,29.39-38.38,21.25-115.68,64-115.68,64s-.06-8.61,0-12.78q0-63.89,0-127.77Z" fill="#59d6bd"/><path d="M46.5,105c25.65-15,78.19-44.88,78.19-44.88L124,200.66S47,158.21,8.71,137C17.05,122.13,32.11,113.12,46.5,105Z" fill="#ef7414"/><path d="M247.5,128.44l123.81,72.3s-39.84,22-59.62,32.64c-21.14,12-64.09,35.82-64.09,35.82L123.94,200.66Z" fill="#fff"/><path d="M0,193C.11,174.17-.23,154.15,8.66,137,47,158.21,123.92,200.66,123.92,200.66,82.55,224.58,41.38,248.86,0,272.81,0,246.21,0,219.62,0,193Z" fill="#e74b50"/><path d="M487.07,136.77c7.54,14.1,8.64,30.5,8.22,46.19v90.11L371.41,200.76S448.69,158,487.07,136.77Z" fill="#794387"/><path d="M123.92,200.66c.19-.08,123.66,68.54,123.66,68.54s0,71.69.07,106.76c.2,11.29-.07,34.11-.07,34.11-41.27-22.78-82.32-45.76-123.6-68.54l-.07-.31V200.66Z" fill="#e4e4e4"/><path d="M0,272.81c41.35-24,82.52-48.23,123.89-72.15q-.06,70.29,0,140.56c-6.35-2.65-12.13-6.43-18.19-9.64C70.5,312.21,35.38,292.39,0,273.21v-.4Z" fill="#794387"/><path d="M371.39,200.76v86.18c-.13,18.27.46,36.47,0,54.73-41.21,22.4-123.82,68.4-123.82,68.4s.27-22.82.07-34.11c0-35.07-.07-106.76-.07-106.76Z" fill="#f1f1f1"/><path d="M371.39,200.76s123.88,72.14,123.88,72.31c-41.17,22.82-123.87,68.6-123.87,68.6h0c.46-18.26-.13-36.46,0-54.73V200.76Z" fill="#4c3683"/><path d="M0,273.21c35.36,19.21,70.43,39,105.7,58.4,6.06,3.21,11.84,7,18.19,9.64l.07.31Q67,374.79,10,408.05C6,402,4,394.86,2.53,387.8.14,376,0,364,0,352v-78.8Z" fill="#4c3683"/><path d="M495.27,273.07c.06,27.65,0,55.3,0,82.95.4,17.73-.12,36.62-9.57,52.25-34.2-20-114.33-66.6-114.33-66.6S454.1,295.89,495.27,273.07Z" fill="#e74b50"/><path d="M10,408Q67,374.72,124,341.53c-.25,46.83.08,93.67-.16,140.49q-40.35-22.75-80.49-45.86C30.82,428.76,18,420.53,10,408Z" fill="#0f68a0"/><path d="M124,341.53c41.28,22.78,82.33,45.76,123.6,68.54-41.2,24-123.7,72-123.76,71.95.24-46.82-.09-93.66.16-140.49Z" fill="#49bdca"/><path d="M371.2,341.76l.2-.09c.12,46.84-.25,93.69.19,140.53l-.31.15c-32.66-19.51-65.71-38.4-98.52-57.68-8.26-4.7-25.18-14.6-25.18-14.6S330,364.21,371.2,341.76Z" fill="#f6a925"/><path d="M371.4,341.67h0c3.65,2.49,80.13,46.62,114.33,66.6-4.86,8.3-12.56,14.39-20.32,19.84-12.52,8.42-25.88,15.47-38.9,23.05-18.31,10.35-36.5,20.91-54.92,31-.44-46.84-.07-93.69-.19-140.53Z" fill="#ef7414"/><path d="M247.58,410.07V543c-10.25-1.51-21.42-3.87-30.5-9.08C186,516.66,154.81,499.5,123.82,482,165,458,206.38,434.12,247.58,410.07Z" fill="#7db425"/><path d="M247.58,410.07s16.92,9.9,25.18,14.6c32.81,19.28,65.86,38.17,98.52,57.68q-47.79,26.44-95.57,53A62.47,62.47,0,0,1,249.84,543h-2.26Z" fill="#b8ce01"/><path d="M602.83,233.66" fill="#f1f1f1"/></svg>
+              </a >
+
+<!-- instagram -->
+              <a href="http://www.instagram.com/A.askari.official">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="80" width="80" viewBox="-19.5036 -32.49725 169.0312 194.9835"><defs><radialGradient fy="578.088" fx="158.429" gradientTransform="matrix(0 -1.98198 1.8439 0 -1031.399 454.004)" gradientUnits="userSpaceOnUse" xlink:href="#a" r="65" cy="578.088" cx="158.429" id="c"/><radialGradient fy="473.455" fx="147.694" gradientTransform="matrix(.17394 .86872 -3.5818 .71718 1648.351 -458.493)" gradientUnits="userSpaceOnUse" xlink:href="#b" r="65" cy="473.455" cx="147.694" id="d"/><linearGradient id="b"><stop stop-color="#3771c8" offset="0"/><stop offset=".128" stop-color="#3771c8"/><stop stop-opacity="0" stop-color="#60f" offset="1"/></linearGradient><linearGradient id="a"><stop stop-color="#fd5" offset="0"/><stop stop-color="#fd5" offset=".1"/><stop stop-color="#ff543e" offset=".5"/><stop stop-color="#c837ab" offset="1"/></linearGradient></defs><path d="M65.033 0C37.891 0 29.953.028 28.41.156c-5.57.463-9.036 1.34-12.812 3.22-2.91 1.445-5.205 3.12-7.47 5.468-4.125 4.282-6.625 9.55-7.53 15.812-.44 3.04-.568 3.66-.594 19.188-.01 5.176 0 11.988 0 21.125 0 27.12.03 35.05.16 36.59.45 5.42 1.3 8.83 3.1 12.56 3.44 7.14 10.01 12.5 17.75 14.5 2.68.69 5.64 1.07 9.44 1.25 1.61.07 18.02.12 34.44.12 16.42 0 32.84-.02 34.41-.1 4.4-.207 6.955-.55 9.78-1.28a27.22 27.22 0 0017.75-14.53c1.765-3.64 2.66-7.18 3.065-12.317.088-1.12.125-18.977.125-36.81 0-17.836-.04-35.66-.128-36.78-.41-5.22-1.305-8.73-3.127-12.44-1.495-3.037-3.155-5.305-5.565-7.624-4.3-4.108-9.56-6.608-15.829-7.512C102.338.157 101.733.027 86.193 0z" fill="url(#c)"/><path d="M65.033 0C37.891 0 29.953.028 28.41.156c-5.57.463-9.036 1.34-12.812 3.22-2.91 1.445-5.205 3.12-7.47 5.468-4.125 4.282-6.625 9.55-7.53 15.812-.44 3.04-.568 3.66-.594 19.188-.01 5.176 0 11.988 0 21.125 0 27.12.03 35.05.16 36.59.45 5.42 1.3 8.83 3.1 12.56 3.44 7.14 10.01 12.5 17.75 14.5 2.68.69 5.64 1.07 9.44 1.25 1.61.07 18.02.12 34.44.12 16.42 0 32.84-.02 34.41-.1 4.4-.207 6.955-.55 9.78-1.28a27.22 27.22 0 0017.75-14.53c1.765-3.64 2.66-7.18 3.065-12.317.088-1.12.125-18.977.125-36.81 0-17.836-.04-35.66-.128-36.78-.41-5.22-1.305-8.73-3.127-12.44-1.495-3.037-3.155-5.305-5.565-7.624-4.3-4.108-9.56-6.608-15.829-7.512C102.338.157 101.733.027 86.193 0z" fill="url(#d)"/><path d="M65.003 17c-13.036 0-14.672.057-19.792.29-5.11.234-8.598 1.043-11.65 2.23-3.157 1.226-5.835 2.866-8.503 5.535-2.67 2.668-4.31 5.346-5.54 8.502-1.19 3.053-2 6.542-2.23 11.65C17.06 50.327 17 51.964 17 65s.058 14.667.29 19.787c.235 5.11 1.044 8.598 2.23 11.65 1.227 3.157 2.867 5.835 5.536 8.503 2.667 2.67 5.345 4.314 8.5 5.54 3.054 1.187 6.543 1.996 11.652 2.23 5.12.233 6.755.29 19.79.29 13.037 0 14.668-.057 19.788-.29 5.11-.234 8.602-1.043 11.656-2.23 3.156-1.226 5.83-2.87 8.497-5.54 2.67-2.668 4.31-5.346 5.54-8.502 1.18-3.053 1.99-6.542 2.23-11.65.23-5.12.29-6.752.29-19.788 0-13.036-.06-14.672-.29-19.792-.24-5.11-1.05-8.598-2.23-11.65-1.23-3.157-2.87-5.835-5.54-8.503-2.67-2.67-5.34-4.31-8.5-5.535-3.06-1.187-6.55-1.996-11.66-2.23-5.12-.233-6.75-.29-19.79-.29zm-4.306 8.65c1.278-.002 2.704 0 4.306 0 12.816 0 14.335.046 19.396.276 4.68.214 7.22.996 8.912 1.653 2.24.87 3.837 1.91 5.516 3.59 1.68 1.68 2.72 3.28 3.592 5.52.657 1.69 1.44 4.23 1.653 8.91.23 5.06.28 6.58.28 19.39s-.05 14.33-.28 19.39c-.214 4.68-.996 7.22-1.653 8.91-.87 2.24-1.912 3.835-3.592 5.514-1.68 1.68-3.275 2.72-5.516 3.59-1.69.66-4.232 1.44-8.912 1.654-5.06.23-6.58.28-19.396.28-12.817 0-14.336-.05-19.396-.28-4.68-.216-7.22-.998-8.913-1.655-2.24-.87-3.84-1.91-5.52-3.59-1.68-1.68-2.72-3.276-3.592-5.517-.657-1.69-1.44-4.23-1.653-8.91-.23-5.06-.276-6.58-.276-19.398s.046-14.33.276-19.39c.214-4.68.996-7.22 1.653-8.912.87-2.24 1.912-3.84 3.592-5.52 1.68-1.68 3.28-2.72 5.52-3.592 1.692-.66 4.233-1.44 8.913-1.655 4.428-.2 6.144-.26 15.09-.27zm29.928 7.97a5.76 5.76 0 105.76 5.758c0-3.18-2.58-5.76-5.76-5.76zm-25.622 6.73c-13.613 0-24.65 11.037-24.65 24.65 0 13.613 11.037 24.645 24.65 24.645C78.616 89.645 89.65 78.613 89.65 65S78.615 40.35 65.002 40.35zm0 8.65c8.836 0 16 7.163 16 16 0 8.836-7.164 16-16 16-8.837 0-16-7.164-16-16 0-8.837 7.163-16 16-16z" fill="#fff"/></svg>
+            </a>
+
+<!-- gmail -->
+              <a href="mailto:Askari.A@PGBidboland@gmail.com">
+               
+                <svg xmlns="http://www.w3.org/2000/svg"
+                aria-label="Gmail" role="img"
+                viewBox="0 0 512 512" width="73" height="73"><path fill="#f2f2f2" d="M120 392V151.075h272V392"/><path fill-opacity=".05" d="M256 285L120 392l-4-212"/><path fill="#d54c3f" d="M120 392H97c-12 0-22-10-22-23V143h45z"/><path fill-opacity=".08" d="M317 392h77V159H82"/><path fill="#f2f2f2" d="M97 121h318L256 234"/><path fill="#b63524" d="M392 392h23c12 0 22-10 22-23V143h-45z"/><path fill="none" stroke="#de5145" stroke-linecap="round" stroke-width="44" d="M97 143l159 115 159-115"/></svg>
+              </a>
+
+<!-- call -->
+              <a href="tel:09163502023">
+                <svg height="50px" width="50px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                viewBox="0 0 512 512" fill="#09680e"   xml:space="preserve">
+             <style type="text/css">
+               .st0{fill:#09680e;}
+             </style>
+             <g>
+               <path class="st0" d="M403.854,409.684c-17.68-14.106-72.76-41.247-86.349-44.375c-13.562-3.154-29.98,9.962-34.501,26.248
+                 c-4.547,16.295-13.027,14.753-13.027,14.753s-32.67-12.003-92.429-71.534c-59.769-59.549-71.85-92.175-71.85-92.175
+                 s-1.595-8.48,14.692-13.089c16.252-4.564,29.314-21.035,26.125-34.598c-3.171-13.562-30.532-68.563-44.69-86.165
+                 c-14.192-17.601-41.606-8.524-47.633-4.135C48.13,108.987-15.581,149.49,3.58,224.072
+                 c19.186,74.592,60.346,134.264,105.579,179.348c45.242,45.066,105.062,85.998,179.715,104.904
+                 c74.644,18.915,114.919-44.944,119.274-51.006C412.51,451.273,421.481,423.816,403.854,409.684z"/>
+               <path class="st0" d="M247.023,189.177c9.9,4.854,25.644,13.86,43.893,32.1c18.25,18.25,27.247,33.993,32.1,43.884
+                 c5.099,10.4,8.866,12.494,11.915,11.784c5.029-1.166,6.702-2.515,7.167-13.001c0.385-8.936-3.89-35.588-31.076-62.773
+                 c-27.186-27.186-53.846-31.452-62.764-31.067c-10.496,0.447-11.828,2.129-12.992,7.175
+                 C234.555,180.311,236.623,184.087,247.023,189.177z"/>
+               <path class="st0" d="M262.95,84.247c-12.808-0.009-16.042,7.92-16.428,10.995c-0.788,6.212,3.794,11.249,13.308,13.974
+                 c10.881,3.11,53.986,16.935,90.099,53.048c36.122,36.113,49.956,79.226,53.057,90.107c2.716,9.506,7.744,14.08,13.964,13.3
+                 c3.092-0.369,11.012-3.61,10.995-16.418c0.009-10.137-6.186-63.22-53.986-111.038C326.17,90.423,273.06,84.237,262.95,84.247z"/>
+               <path class="st0" d="M437.304,74.889C368.836,6.422,296.602,0.526,284.187,0.201c-15.157-0.385-21.167,6.414-21.158,13.387
+                 c-0.009,5.94,6.08,12.046,15.139,14.377c13.597,3.486,67.495,11.976,130.784,75.266c63.307,63.29,71.78,117.197,75.284,130.803
+                 c2.322,9.041,8.437,15.139,14.368,15.139c6.982,0,13.781-6.002,13.378-21.149C511.667,215.601,505.771,143.366,437.304,74.889z"/>
+             </g>
+             </svg>
+            </a>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="flex items-center  justify-center">
+          <img src="./images/ffsd.png" alt="" class="w-72 h-72">
+        </div>
+      </div>
+    </section>
+
     <span
       id="overlaymenu"
       class="overlay fixed hidden inset-0 w-full z-10 md:hidden h-full top-0 bg-black/40"
