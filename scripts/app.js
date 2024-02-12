@@ -144,8 +144,10 @@ typewriter.typeString('تحول و تغییر با فکر و تدبر')
     .pauseFor(1500)
     .deleteAll()
     .typeString('آماده برای خدمت رسانی')
+    .pauseFor(1500)
     .deleteAll()
     .typeString('تعامل،صداقت و تلاش')
+    .pauseFor(1500)
     .deleteAll()
     .start();
 
