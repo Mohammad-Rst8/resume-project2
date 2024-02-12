@@ -1,5 +1,6 @@
 const $ = document
 let menuIcon = $.querySelector('#menuicon')
+let menuu = $.querySelector('#menuu')
 let overlaymenu = $.querySelector('#overlaymenu')
 let menumobile = $.querySelector('#menumobile')
 let wrappDetails = $.querySelector('#wrapp-details')
@@ -58,7 +59,7 @@ const detailsArray = [
 ]
 // menu mobile
 let menubool = true
-menuIcon.addEventListener('click', () =>{
+menuu.addEventListener('click', () =>{
 if(menubool){
     menuIcon.setAttribute('href' , '#multiply')
     overlaymenu.classList.remove('hidden')
