@@ -60,14 +60,14 @@ const detailsArray = [
 let menubool = true
 menuIcon.addEventListener('click', () =>{
 if(menubool){
-    menuIcon.setAttribute('src' , '../icons/multiply.svg')
+    menuIcon.setAttribute('href' , '#multiply')
     overlaymenu.classList.remove('hidden')
     overlaymenu.classList.add('block')
     menumobile.style.top = "2.5rem" 
  
     menubool = false
 }else{
-    menuIcon.setAttribute('src' , '../icons/menu.svg')
+    menuIcon.setAttribute('href' , '#menuiconn')
     overlaymenu.classList.remove('block')
     overlaymenu.classList.add('hidden')
     menumobile.style.top = "-20rem" 

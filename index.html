@@ -9,7 +9,14 @@
     <title>Asghar askari</title>
   </head>
   <body class="">
+<svg class="hidden">
+  <symbol width="40px" id="menuiconn" height="40px" viewBox="0 0 24 24" fill="#047cd2" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4 6H20M4 12H20M4 18H20" stroke="#047cd2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
 
+    <symbol fill="#047cd2" id="multiply" width="40px" height="40px" viewBox="-3.5 0 19 19" xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg"><path d="M11.383 13.644A1.03 1.03 0 0 1 9.928 15.1L6 11.172 2.072 15.1a1.03 1.03 0 1 1-1.455-1.456l3.928-3.928L.617 5.79a1.03 1.03 0 1 1 1.455-1.456L6 8.261l3.928-3.928a1.03 1.03 0 0 1 1.455 1.456L7.455 9.716z"/>
+    </symbol>
+</svg>
 
     <section id="biography" >
       <div
@@ -147,12 +154,14 @@
         </ul>
 
         <div class="md:hidden fixed left-0 right-0 z-30  bg-[#012549] w-[90%] mx-auto">
-          <img
-            src="./icons/menu.svg"
-            alt="menu"
-            id="menuicon"
-            class="w-10 h-10 flex items-center justify-center mx-auto"
-          />
+          
+          <svg class="w-10 h-10 flex items-center justify-center mx-auto" >
+            <use href="#menuiconn" id="menuicon"></use>
+          </svg>
+
+            
+         
+            
 
           <ul
             id="menumobile"
