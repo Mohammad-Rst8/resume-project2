@@ -114,10 +114,10 @@ lazy:true,
     el: '.swiper-pagination',
     clickable: true,
   },
-  // autoplay: {
-  //   enabled: true,
-  //   delay: 4000,
-  // },
+  autoplay: {
+    enabled: true,
+    delay: 4000,
+  },
 
   // Navigation arrows
  
