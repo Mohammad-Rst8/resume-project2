@@ -2,12 +2,45 @@
   font-family: 'v-bold';
   src: url('../fonts/Vazir-Bold.ttf');
 }
+@font-face {
+  font-family: 'p-bold';
+  src: url('../fonts/Peyda-Bold.ttf');
+}
 
+#app{
+  font-family: 'p-bold';
+}
+.spinner {
+  display: grid;
+  place-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(82, 0, 255, 0) 0deg,
+    #5200ff 360deg
+  );
+  animation: spin 1s infinite linear;
+}
+.spinner::before {
+  content: "";
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  background-color: #000;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
 
 
 .enable{
-    background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-    color: rgb(191 219 254);
+    background-color: #2dcb65;
+    color: white;
 }
 .swiper {
     width: 100%;

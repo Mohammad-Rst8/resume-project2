@@ -3,6 +3,7 @@ let menuIcon = $.querySelector('#menuicon')
 let menuu = $.querySelector('#menuu')
 let overlaymenu = $.querySelector('#overlaymenu')
 let menumobile = $.querySelector('#menumobile')
+let preloader = $.querySelector('#preloader')
 let wrappDetails = $.querySelector('#wrapp-details')
 let listEducation = $.querySelectorAll('.education')
 
@@ -126,3 +127,37 @@ lazy:true,
     el: '.swiper-scrollbar',
   },
 });
+
+
+
+
+// typewriter
+
+let app = document.getElementById('app');
+
+let typewriter = new Typewriter(app, {
+  autoStart: true,
+    loop: true
+});
+
+typewriter.typeString('تحول و تغییر با فکر و تدبر')
+    .pauseFor(1500)
+    .deleteAll()
+    .typeString('آماده برای خدمت رسانی')
+    .deleteAll()
+    .typeString('تعامل،صداقت و تلاش')
+    .deleteAll()
+    .start();
+
+
+
+    window.onload = function () {
+      
+      preloader.classList.remove('flex')
+      preloader.classList.add('hidden')
+    }
+
+
+
+ 
+      
