@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'v-bold';
+  src: url('../fonts/Vazir-Bold.ttf');
+}
+
+
+
 .enable{
     background-color: rgb(185 28 28 / var(--tw-bg-opacity));
     color: rgb(191 219 254);
@@ -6,20 +13,13 @@
     width: 100%;
     height: 450px;
   }
-@font-face {
-  font-family: 'v-bold';
-  src: url('../fonts/Vazir-Bold.ttf');
-}
-@font-face {
-  font-family: 'v-medium';
-  src: url('../fonts/Vazir-Medium.ttf');
-}
-body{
-  font-family: 'v-bold';
-}
-
-
-
+  
+  body{
+    font-family: 'v-bold';
+  }
+  
+  
+  
 
 
   @media (min-width:768px) {

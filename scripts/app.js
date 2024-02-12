@@ -60,14 +60,14 @@ const detailsArray = [
 let menubool = true
 menuIcon.addEventListener('click', () =>{
 if(menubool){
-    menuIcon.setAttribute('src' , '../icons/multiply-svgrepo-com.svg')
+    menuIcon.setAttribute('src' , '../icons/multiply.svg')
     overlaymenu.classList.remove('hidden')
     overlaymenu.classList.add('block')
     menumobile.style.top = "2.5rem" 
  
     menubool = false
 }else{
-    menuIcon.setAttribute('src' , '../icons/menu-svgrepo-com.svg')
+    menuIcon.setAttribute('src' , '../icons/menu.svg')
     overlaymenu.classList.remove('block')
     overlaymenu.classList.add('hidden')
     menumobile.style.top = "-20rem" 
@@ -111,6 +111,10 @@ lazy:true,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
+  },
+  autoplay: {
+    enabled: true,
+    delay: 4000,
   },
 
   // Navigation arrows
