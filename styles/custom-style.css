@@ -13,8 +13,8 @@
 .spinner {
   display: grid;
   place-items: center;
-  width: 150px;
-  height: 150px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background: conic-gradient(
     from 180deg at 50% 50%,
@@ -51,7 +51,11 @@
     font-family: 'v-bold';
   }
   
-  
+  #Contact-bg{
+    background-image: url("../images/shape2.png") ; background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   
 
 
